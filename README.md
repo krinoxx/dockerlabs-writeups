@@ -11,7 +11,7 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
 
 | Dificultad | Resueltas |
 |------------|-----------|
-| 🟢 Muy fácil | 0 |
+| 🟢 Muy fácil | 1 |
 | 🟡 Fácil | 0 |
 | 🟠 Media | 0 |
 | 🔴 Difícil | 0 |
@@ -23,7 +23,11 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
 
 ### 🟢 Muy fácil
 
-> *En progreso — primeras máquinas próximamente*
+| Máquina | Técnicas | Writeup |
+|---------|----------|---------|
+| Firsthacking | FTP anónimo · CVE-2011-2523 · Backdoor vsftpd | [writeup](./muy-facil/firsthacking/writeup.md) |
+
+### 🟡 Fácil
 
 ### 🟡 Fácil
 
