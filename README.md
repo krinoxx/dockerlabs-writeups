@@ -29,8 +29,6 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
 
 ### 🟡 Fácil
 
-### 🟡 Fácil
-
 > *Pendiente*
 
 ### 🟠 Media
