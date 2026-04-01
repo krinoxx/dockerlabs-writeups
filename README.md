@@ -15,7 +15,7 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
 | 🟡 Fácil | 0 |
 | 🟠 Media | 0 |
 | 🔴 Difícil | 0 |
-| **Total** | **0** |
+| **Total** | **1** |
 
 ---
 
@@ -32,6 +32,10 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
 > *Pendiente*
 
 ### 🟠 Media
+
+> *Pendiente*
+
+### 🔴 Difícil
 
 > *Pendiente*
 
