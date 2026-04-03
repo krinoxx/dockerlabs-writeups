@@ -8,24 +8,25 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
 ---
 
 ## 📊 Progreso
-
+ 
 | Dificultad | Resueltas |
 |------------|-----------|
-| 🟢 Muy fácil | 1 |
+| 🟢 Muy fácil | 2 |
 | 🟡 Fácil | 0 |
 | 🟠 Media | 0 |
 | 🔴 Difícil | 0 |
-| **Total** | **1** |
-
+| **Total** | **2** |
+ 
 ---
-
+ 
 ## 📁 Índice de máquinas
-
+ 
 ### 🟢 Muy fácil
-
+ 
 | Máquina | Técnicas | Writeup |
 |---------|----------|---------|
-| Firsthacking | FTP anónimo · CVE-2011-2523 · Backdoor vsftpd | [writeup](./muy-facil/firsthacking/writeup.md) |
+| Firsthacking | FTP anónimo · CVE-2011-2523 · Backdoor vsftpd 2.3.4 | [writeup](./muy-facil/firsthacking/writeup.md) |
+| BreakMySSH | Fuerza bruta SSH · Hydra · Metasploit ssh_login | [writeup](./muy-facil/breakmyssh/writeup.md) |
 
 ### 🟡 Fácil
 
