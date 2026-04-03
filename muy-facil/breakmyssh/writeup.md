@@ -170,5 +170,5 @@ id
  
 ---
  
-*Writeup realizado con fines educativos en un entorno controlado de DockerLabs.*
+*Writeup realizado con fines educativos en un entorno controlado de DockerLabs.* 
  
