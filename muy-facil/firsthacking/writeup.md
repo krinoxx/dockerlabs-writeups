@@ -2,6 +2,16 @@
 **Dificultad:** Muy fácil | **SO:** Linux | **Fecha:** 31/03/2026
 
 ---
+ 
+## Índice
+ 
+1. [Reconocimiento](#reconocimiento)
+2. [Enumeración](#enumeración)
+3. [Explotación](#explotación)
+4. [Post-explotación / Escalada de privilegios](#post-explotación--escalada-de-privilegios)
+5. [Lecciones aprendidas](#lecciones-aprendidas)
+ 
+---
 
 ## Reconocimiento
 
