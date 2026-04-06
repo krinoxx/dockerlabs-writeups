@@ -1,6 +1,6 @@
-# DockerLabs Writeups 🐳
+# CTF Writeups ⚔️
  
-Writeups de las máquinas que voy resolviendo en **[DockerLabs](https://dockerlabs.es)**, plataforma gratuita de hacking ético creada por El Pingüino de Mario.
+Writeups de las máquinas que voy resolviendo en distintas plataformas de hacking ético.
  
 Cada writeup documenta el proceso completo: reconocimiento, enumeración, explotación, escalada de privilegios y lecciones aprendidas.  
 El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
@@ -9,66 +9,64 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
  
 ## 📊 Progreso
  
-| Dificultad | Resueltas |
+| Plataforma | Resueltas |
 |------------|-----------|
-| 🟢 Muy fácil | 3 |
-| 🟡 Fácil | 0 |
-| 🟠 Media | 0 |
-| 🔴 Difícil | 0 |
+| 🐳 DockerLabs | 3 |
+| 💀 The Hacker Labs | 0 |
+| 🟩 HackTheBox | 0 |
 | **Total** | **3** |
  
 ---
  
 ## 📁 Índice de máquinas
  
-### 🟢 Muy fácil
+### 🐳 DockerLabs
  
-| Máquina | Técnicas | Writeup |
-|---------|----------|---------|
-| Firsthacking | FTP · CVE-2011-2523 · Backdoor vsftpd 2.3.4 · netcat | [writeup](./muy-facil/firsthacking/writeup.md) |
-| BreakMySSH | Fuerza bruta SSH · Hydra · Metasploit ssh_login | [writeup](./muy-facil/breakmyssh/writeup.md) |
-| Trust | Enumeración web · Gobuster · Fuerza bruta SSH · sudo misconfiguration · GTFOBins (vim) | [writeup](./muy-facil/trust/writeup.md) |
+| Máquina | Dificultad | Técnicas | Writeup |
+|---------|------------|----------|---------|
+| Firsthacking | 🟢 Muy fácil | FTP · CVE-2011-2523 · Backdoor vsftpd 2.3.4 · netcat | [writeup](./dockerlabs/muy-facil/firsthacking/writeup.md) |
+| BreakMySSH | 🟢 Muy fácil | Fuerza bruta SSH · Hydra · Metasploit ssh_login | [writeup](./dockerlabs/muy-facil/breakmyssh/writeup.md) |
+| Trust | 🟢 Muy fácil | Gobuster · Fuerza bruta SSH · sudo misconfiguration · GTFOBins (vim) | [writeup](./dockerlabs/muy-facil/trust/writeup.md) |
  
-### 🟡 Fácil
+### 💀 The Hacker Labs
  
-> *Pendiente*
+> *Próximamente*
  
-### 🟠 Media
+### 🟩 HackTheBox
  
-> *Pendiente*
- 
-### 🔴 Difícil
- 
-> *Pendiente*
+> *Próximamente*
  
 ---
  
-## 📝 Plantilla de writeup
+## 📝 Estructura de writeups
  
-Todos los writeups siguen esta estructura:
+Todos los writeups siguen esta plantilla:
  
 ```
 ## Reconocimiento
-## Enumeración  
-## Explotación
+## Enumeración web      ← solo si aplica
+## Acceso inicial
 ## Escalada de privilegios
 ## Lecciones aprendidas
+### Desde el punto de vista del atacante
+### Desde el punto de vista del defensor
 ```
  
 ---
  
 ## 🛠️ Herramientas habituales
  
-`nmap` `gobuster` `hydra` `netcat` `Metasploit` `Burp Suite`  
-`find` `sudo -l` `linpeas` `GTFOBins` `searchsploit`
+`nmap` `gobuster` `hydra` `netcat` `Metasploit` `Burp Suite` `searchsploit`  
+`sudo -l` `linpeas` `GTFOBins` `John the Ripper` `Impacket`
  
 ---
  
 ## 📚 Recursos útiles
  
-- [DockerLabs](https://dockerlabs.es) — plataforma
+- [DockerLabs](https://dockerlabs.es) — plataforma española gratuita
+- [The Hacker Labs](https://thehackerlabs.com) — plataforma española gratuita
+- [HackTheBox](https://hackthebox.com) — plataforma internacional
 - [GTFOBins](https://gtfobins.github.io) — escalada de privilegios Linux
-- [HackTricks](https://book.hacktricks.xyz) — referencia general
+- [HackTricks](https://book.hacktricks.xyz) — referencia general de pentesting
 - [RevShells](https://www.revshells.com) — generador de reverse shells
 - [ExploitDB](https://www.exploit-db.com) — base de datos de exploits
- 
