@@ -9,32 +9,23 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
  
 ## 📊 Progreso
  
-| Plataforma | Resueltas |
+| Dificultad | Resueltas |
 |------------|-----------|
-| 🐳 DockerLabs | 3 |
-| 💀 The Hacker Labs | 0 |
-| 🟩 HackTheBox | 0 |
+| 🟢 Muy fácil | 3 |
+| 🟡 Fácil | 0 |
+| 🟠 Media | 0 |
+| 🔴 Difícil | 0 |
 | **Total** | **3** |
  
 ---
  
 ## 📁 Índice de máquinas
  
-### 🐳 DockerLabs
- 
-| Máquina | Dificultad | Técnicas | Writeup |
-|---------|------------|----------|---------|
-| Firsthacking | 🟢 Muy fácil | FTP · CVE-2011-2523 · Backdoor vsftpd 2.3.4 · netcat | [writeup](./dockerlabs/muy-facil/firsthacking/writeup.md) |
-| BreakMySSH | 🟢 Muy fácil | Fuerza bruta SSH · Hydra · Metasploit ssh_login | [writeup](./dockerlabs/muy-facil/breakmyssh/writeup.md) |
-| Trust | 🟢 Muy fácil | Gobuster · Fuerza bruta SSH · sudo misconfiguration · GTFOBins (vim) | [writeup](./dockerlabs/muy-facil/trust/writeup.md) |
- 
-### 💀 The Hacker Labs
- 
-> *Próximamente*
- 
-### 🟩 HackTheBox
- 
-> *Próximamente*
+| Máquina | Plataforma | Dificultad | Técnicas | Writeup |
+|---------|------------|------------|----------|---------|
+| Firsthacking | DockerLabs | 🟢 Muy fácil | FTP · CVE-2011-2523 · Backdoor vsftpd 2.3.4 · netcat | [writeup](./dockerlabs/muy-facil/firsthacking/writeup.md) |
+| BreakMySSH | DockerLabs | 🟢 Muy fácil | Fuerza bruta SSH · Hydra · Metasploit ssh_login | [writeup](./dockerlabs/muy-facil/breakmyssh/writeup.md) |
+| Trust | DockerLabs | 🟢 Muy fácil | Gobuster · Fuerza bruta SSH · sudo misconfiguration · GTFOBins (vim) | [writeup](./dockerlabs/muy-facil/trust/writeup.md) |
  
 ---
  
@@ -63,9 +54,6 @@ Todos los writeups siguen esta plantilla:
  
 ## 📚 Recursos útiles
  
-- [DockerLabs](https://dockerlabs.es) — plataforma española gratuita
-- [The Hacker Labs](https://thehackerlabs.com) — plataforma española gratuita
-- [HackTheBox](https://hackthebox.com) — plataforma internacional
 - [GTFOBins](https://gtfobins.github.io) — escalada de privilegios Linux
 - [HackTricks](https://book.hacktricks.xyz) — referencia general de pentesting
 - [RevShells](https://www.revshells.com) — generador de reverse shells
