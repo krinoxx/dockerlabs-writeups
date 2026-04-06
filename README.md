@@ -9,12 +9,11 @@ El objetivo no es solo llegar a root — es entender el *por qué* de cada paso.
  
 ## 📊 Progreso
  
-| Dificultad | Resueltas |
+| Plataforma | Resueltas |
 |------------|-----------|
-| 🟢 Muy fácil | 3 |
-| 🟡 Fácil | 0 |
-| 🟠 Media | 0 |
-| 🔴 Difícil | 0 |
+| DockerLabs | 3 |
+| The Hacker Labs | 0 |
+| HackTheBox | 0 |
 | **Total** | **3** |
  
 ---
